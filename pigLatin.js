@@ -1,16 +1,13 @@
-/* Perform a search and replace on the sentence using the arguments provided and return the new
-sentence.
+/* Translate the provided string to pig latin.
 
-First argument is the sentence to perform the search and replace on.
+Pig Latin takes the first consonant (or consonant cluster) of an English word, moves it to the
+end of the word and suffixes an "ay".
 
-Second argument is the word that you will be replacing (before).
+If a word begins with a vowel you just add "way" to the end.
 
-Third argument is what you will be replacing the second argument with (after).
+If a word does not contain a vowel, just add "ay" to the end.
 
-Note
-Preserve the case of the first character in the original word when you are replacing it.
-For example if you mean to replace the word "Book" with the word "dog", 
-it should be replaced as "Dog"*/
+Input strings are guaranteed to be English words in all lowercase.*/
 
 
 
