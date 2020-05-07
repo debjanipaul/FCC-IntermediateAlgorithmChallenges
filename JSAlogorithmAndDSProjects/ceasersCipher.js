@@ -65,17 +65,17 @@ rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.");
 //       .join('');
 // }
 
-function rot13(str) {
-    var newWord = [];
-    for (i = 0; i < str.length; i++) {
-        var newLet = str.charCodeAt(i);
-        if (newLet >= 65 && newLet <= 90) {
-            newLet -= 13;
-            if (newLet < 65) {
-                newLet += 26;
-            }
-        }
-        newWord.push(String.fromCharCode(newLet));
-    }
-    return newWord.join('');
-}
+// function rot13(str) {
+//     var newWord = [];
+//     for (i = 0; i < str.length; i++) {
+//         var newLet = str.charCodeAt(i);
+//         if (newLet >= 65 && newLet <= 90) {
+//             newLet -= 13;
+//             if (newLet < 65) {
+//                 newLet += 26;
+//             }
+//         }
+//         newWord.push(String.fromCharCode(newLet));
+//     }
+//     return newWord.join('');
+// }
